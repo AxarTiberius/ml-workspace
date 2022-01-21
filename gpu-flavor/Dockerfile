@@ -140,7 +140,7 @@ RUN \
     pip install --no-cache-dir scikit-cuda && \
     # Install tensorflow gpu
     pip uninstall -y tensorflow tensorflow-cpu intel-tensorflow && \
-    pip install --no-cache-dir tensorflow-gpu==2.5.0 && \
+    pip install --no-cache-dir tensorflow && \
     # Install ONNX GPU Runtime
     pip uninstall -y onnxruntime && \
     pip install --no-cache-dir onnxruntime-gpu==1.8.0 onnxruntime-training==1.8.0 && \
